@@ -14,9 +14,11 @@
 8. [The `this` Pointer](#8-the-this-pointer)
 9. [Complete Examples](#9-complete-examples)
 10. [Static Members](#10-static-members)
-11. [Common Mistakes](#11-common-mistakes-)
-12. [Practice Problems](#practice-problems)
-13. [Key Takeaways](#key-takeaways)
+11. [Introduction to Templates (Generic Programming)](#11-introduction-to-templates-generic-programming)
+12. [Advanced OOP Topics (Not Covered)](#12-advanced-oop-topics-not-covered)
+13. [Common Mistakes](#13-common-mistakes-)
+14. [Practice Problems](#practice-problems)
+15. [Key Takeaways](#key-takeaways)
 
 ---
 
@@ -760,7 +762,229 @@ int main() {
 
 ---
 
-## 11. Common Mistakes ⚠️
+## 11. Introduction to Templates (Generic Programming)
+
+**Templates** allow you to write code that works with **any data type**.
+
+**Why templates matter**: This is HOW the STL works! Understanding templates helps you understand why `vector<int>`, `vector<string>`, `vector<double>` all use the same code.
+
+---
+
+### The Problem Templates Solve
+
+Imagine you want a function to find the maximum of two numbers:
+
+```cpp
+int max(int a, int b) {
+    return (a > b) ? a : b;
+}
+```
+
+But what if you need max for doubles? floats? strings?
+
+**Without templates** (bad):
+```cpp
+int maxInt(int a, int b) { return (a > b) ? a : b; }
+double maxDouble(double a, double b) { return (a > b) ? a : b; }
+float maxFloat(float a, float b) { return (a > b) ? a : b; }
+// Repeating same logic! 😱
+```
+
+**With templates** (good):
+```cpp
+template<typename T>
+T max(T a, T b) {
+    return (a > b) ? a : b;
+}
+
+// Works for ANY type!
+int x = max(5, 10);           // T = int
+double y = max(3.14, 2.71);   // T = double
+string s = max("apple", "banana"); // T = string
+```
+
+**Think of templates as**: A blueprint that compiler fills in with actual types.
+
+---
+
+### Function Templates
+
+**Syntax**:
+```cpp
+template<typename T>
+T functionName(T param) {
+    // Use T like a normal type
+}
+```
+
+**Example: Swap Function**:
+```cpp
+template<typename T>
+void swap(T& a, T& b) {
+    T temp = a;
+    a = b;
+    b = temp;
+}
+
+int main() {
+    int x = 5, y = 10;
+    swap(x, y);  // Works with int
+
+    string s1 = "hello", s2 = "world";
+    swap(s1, s2);  // Works with string
+
+    double d1 = 3.14, d2 = 2.71;
+    swap(d1, d2);  // Works with double
+}
+```
+
+---
+
+### Class Templates
+
+**Syntax**:
+```cpp
+template<typename T>
+class ClassName {
+    T data;
+public:
+    void set(T value) { data = value; }
+    T get() { return data; }
+};
+```
+
+**Example: Box That Holds Any Type**:
+```cpp
+template<typename T>
+class Box {
+private:
+    T value;
+
+public:
+    Box(T v) : value(v) {}
+
+    T getValue() {
+        return value;
+    }
+
+    void setValue(T v) {
+        value = v;
+    }
+};
+
+int main() {
+    Box<int> intBox(42);
+    cout << intBox.getValue() << endl;  // 42
+
+    Box<string> stringBox("Hello");
+    cout << stringBox.getValue() << endl;  // Hello
+
+    Box<double> doubleBox(3.14);
+    cout << doubleBox.getValue() << endl;  // 3.14
+}
+```
+
+**This is exactly how `vector<T>` works!**
+
+---
+
+### How STL Uses Templates
+
+Now you understand why we write:
+
+```cpp
+vector<int> numbers;      // vector template with T = int
+vector<string> words;     // vector template with T = string
+map<string, int> ages;    // map template with Key = string, Value = int
+```
+
+The STL containers are **class templates** that work with any type!
+
+---
+
+### Template Terminology
+
+- `template<typename T>`: Declare a template with type parameter T
+- `typename`: Keyword meaning "this is a type" (can also use `class` instead)
+- `T`: Type parameter (common convention; can be any name)
+- **Instantiation**: When compiler generates actual code for a specific type
+
+---
+
+### Multiple Template Parameters
+
+You can have multiple type parameters:
+
+```cpp
+template<typename T, typename U>
+class Pair {
+public:
+    T first;
+    U second;
+
+    Pair(T f, U s) : first(f), second(s) {}
+};
+
+int main() {
+    Pair<int, string> p1(1, "one");
+    Pair<string, double> p2("pi", 3.14);
+}
+```
+
+**This is how `map<string, int>` works!** (Key type, Value type)
+
+---
+
+### When You'll Use Templates
+
+**As a beginner**:
+- **Using templates**: You'll use STL containers (vector, map, set) which are templates
+- **Writing templates**: Rare for beginners, common in advanced C++
+
+**Where templates appear**:
+- All STL containers: `vector<T>`, `list<T>`, `deque<T>`, `stack<T>`, `queue<T>`
+- All STL maps/sets: `map<K,V>`, `set<T>`, `unordered_map<K,V>`
+- STL algorithms: `sort`, `find`, `binary_search` work with any type
+
+---
+
+### Key Takeaways
+
+✅ **Templates = code that works with any type**
+✅ **Function templates**: `template<typename T>` before function
+✅ **Class templates**: `template<typename T>` before class
+✅ **STL uses templates extensively** (vector, map, set, etc.)
+✅ **Compiler generates code** for each type you use
+✅ **`<int>`, `<string>` in angle brackets** = specifying the type
+
+**Don't worry if templates seem complex** - you'll mostly be **using** them (STL containers) rather than **writing** them. The important thing is understanding why `vector<int>` and `vector<string>` both exist!
+
+---
+
+## 12. Advanced OOP Topics (Not Covered)
+
+This course focuses on fundamentals needed for data structures. The following advanced OOP topics are important but beyond our current scope:
+
+### **Inheritance**
+- Creating classes based on other classes
+- Code reuse through parent-child relationships
+- Example: `class Student : public Person`
+
+### **Polymorphism**
+- Objects behaving differently based on their type
+- Virtual functions
+- Runtime type decisions
+
+### **Why not covered here?**
+- **Focus**: This course prioritizes data structures & algorithms
+- **Complexity**: These topics deserve dedicated chapters
+- **Prerequisites**: You now have the foundation to learn them
+
+**Where to learn**: After completing this course, study inheritance and polymorphism from C++ OOP resources or advanced C++ courses.
+
+---
+
+## 13. Common Mistakes ⚠️
 
 ### Mistake 1: Forgetting Semicolon After Class
 

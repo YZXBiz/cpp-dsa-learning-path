@@ -17,7 +17,8 @@
 11. [Complete Example Programs](#complete-example-programs)
 12. [Practice Problems](#practice-problems)
 13. [Key Takeaways](#key-takeaways)
-14. [What's Next?](#whats-next)
+14. [Smart Pointers (Modern C++)](#smart-pointers-modern-c)
+15. [What's Next?](#whats-next)
 
 ---
 
@@ -493,6 +494,60 @@ Allocate a 2D array dynamically and free it properly.
 ✅ **Always initialize pointers** (nullptr if nothing yet)
 ✅ **Every `new` needs a `delete`** (avoid memory leaks)
 ✅ **References are safer** for most cases
+
+---
+
+## Smart Pointers (Modern C++)
+
+**Note**: This chapter covers **raw pointers** (`int*`, `new`, `delete`) which are fundamental to understanding how memory works. However, modern C++ (C++11 and later) provides **smart pointers** that handle memory automatically.
+
+### What Are Smart Pointers?
+
+Smart pointers are **wrapper classes** that automatically manage memory. They delete memory when it's no longer needed - **no manual `delete` required**!
+
+**Types of smart pointers**:
+1. **`unique_ptr`**: Exclusive ownership (one owner only)
+2. **`shared_ptr`**: Shared ownership (multiple owners)
+3. **`weak_ptr`**: Temporary access without ownership
+
+### Example: unique_ptr
+
+```cpp
+#include <memory>  // For smart pointers
+
+int main() {
+    // Raw pointer (manual management)
+    int* rawPtr = new int(42);
+    // ... use it ...
+    delete rawPtr;  // Must remember to delete!
+
+    // Smart pointer (automatic management)
+    std::unique_ptr<int> smartPtr = std::make_unique<int>(42);
+    // ... use it ...
+    // No delete needed! Automatically freed when smartPtr goes out of scope
+}
+```
+
+### Why Learn Raw Pointers First?
+
+Even though smart pointers are better for production code, understanding raw pointers is crucial because:
+
+1. **Foundation**: You need to understand how memory works
+2. **Legacy code**: Lots of existing code uses raw pointers
+3. **Data structures**: When implementing linked lists, trees, etc., you'll work with pointers
+4. **Interview questions**: Often test pointer knowledge
+5. **Smart pointers are built on raw pointers**: Understanding the base helps you use smart pointers better
+
+### When to Use What?
+
+**In this course**:
+- We use **raw pointers** to teach fundamentals and implement data structures
+
+**In production code** (after you're comfortable with pointers):
+- Prefer **smart pointers** (`unique_ptr`, `shared_ptr`)
+- Use raw pointers only when necessary (low-level code, performance-critical sections)
+
+**Recommendation**: After completing this course, study smart pointers in depth. They're the modern, safer way to manage memory in C++!
 
 ---
 

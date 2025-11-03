@@ -184,7 +184,7 @@ Memory management confidence: [ ] Low  [ ] Medium  [ ] High
 **Target End Date**: _______________
 **Actual End Date**: _______________
 
-- [ ] Big O notation and analysis
+- [ ] Big-O notation and analysis
 - [ ] Time and space complexity
 - [ ] Array operations
 - [ ] 2D arrays
@@ -198,7 +198,7 @@ Memory management confidence: [ ] Low  [ ] Medium  [ ] High
 
 **Practice Problems Solved**: _____ / 20
 
-**Big O Understanding**:
+**Big-O Understanding**:
 - O(1): [ ] Beginner  [ ] Intermediate  [ ] Advanced
 - O(n): [ ] Beginner  [ ] Intermediate  [ ] Advanced
 - O(n²): [ ] Beginner  [ ] Intermediate  [ ] Advanced

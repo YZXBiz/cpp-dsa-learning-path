@@ -429,43 +429,34 @@ Greedy by value/weight: Take item 2 (ratio=4/3) + item 3 (ratio=5/4)
 Actually optimal! But greedy doesn't always work for 0/1.
 ```
 
-**Different example where greedy fails**:
+**Example where greedy fails**:
+
+Let's use a clear example to show why the greedy approach doesn't always work:
+
 ```
-Items: [(2, 3), (3, 4), (4, 5), (5, 6)]
-Capacity: 5
-
-Greedy by ratio: (2,3) has ratio 1.5 → Take it, then (3,4) = weight 5, value 7
-DP: (3,4) + (2,3) is same, but what about just (5,6)? Value 6 < 7
-
-Actually greedy works here too! Let's use classic example:
-Items: [(1,1), (2,6), (5,18), (6,22)]
-Capacity: 11
-
-Greedy by ratio: (5,18) ratio=3.6, (6,22) ratio=3.67
-Take (6,22) + (5,18) = weight 11, value 40 ✗
-
-DP: (2,6) + (2,6) + (2,6) + (5,18) = wait, can't take same item multiple times!
-
-Better example:
-Items: [(5,10), (4,40), (6,30), (3,50)]
-Capacity: 10
-
-Greedy by ratio: (3,50) ratio=16.67, then (4,40) ratio=10
-  → (3,50) + (4,40) = weight 7, value 90
-
-Can we add more? (5,10) or (6,30)? Only (5,10) fits.
-  → weight 12 > 10, doesn't fit!
-
-Actually just (3,50) + (4,40) = 7 weight, 90 value
-  Add nothing more? Let's recalculate...
-
-OK, using classic textbook example:
-Items: [(1,1), (3,4), (4,5), (5,7)]
+Items: [(weight=1, value=1), (weight=3, value=4), (weight=4, value=5), (weight=5, value=7)]
 Capacity: 7
 
-Greedy: (5,7) ratio 1.4, then (1,1) → value 8
-DP: (3,4) + (4,5) = value 9 ✓
+Step 1: Calculate value/weight ratio for each item:
+  Item 1: 1/1 = 1.00
+  Item 2: 4/3 = 1.33
+  Item 3: 5/4 = 1.25
+  Item 4: 7/5 = 1.40  ← Best ratio!
+
+Step 2: Greedy approach (take items by best ratio):
+  Take Item 4 (weight=5, value=7)
+  Remaining capacity: 7 - 5 = 2
+  Next best that fits: Item 1 (weight=1, value=1)
+  Greedy result: value = 7 + 1 = 8
+
+Step 3: Optimal DP approach:
+  Instead, take Item 2 (weight=3, value=4) + Item 3 (weight=4, value=5)
+  Total: weight = 7, value = 4 + 5 = 9 ✓
+
+Greedy gave us 8, but optimal is 9!
 ```
+
+**Why greedy fails**: Greedy takes the locally best choice (highest ratio) without considering that a combination of items with slightly lower ratios might give better total value.
 
 ### Recurrence Relation
 
