@@ -596,7 +596,7 @@ bool hasDuplicates(int arr[], int n) {
 
 ## What's Next?
 
-In **Chapter 15**, you'll dive deep into **Array Problems & Techniques** - using arrays to solve complex problems efficiently!
+In **[Chapter 15](chapter-15-arrays-deep-dive.md)**, you'll dive deep into **Array Problems & Techniques** - using arrays to solve complex problems efficiently!
 
 ---
 

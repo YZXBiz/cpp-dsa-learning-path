@@ -690,7 +690,7 @@ Calculate compound interest:
 
 ## What's Next?
 
-In **Chapter 3**, you'll learn about control structures - how to make decisions with if/else and switch statements!
+In **[Chapter 3](chapter-03-control-structures.md)**, you'll learn about control structures - how to make decisions with if/else and switch statements!
 
 ---
 

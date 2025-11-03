@@ -171,7 +171,7 @@ void sortColors(vector<int>& arr) {
 
 ## What's Next?
 
-In **Chapter 16**, you'll learn about **Linked Lists** - dynamic data structures that don't need contiguous memory!
+In **[Chapter 16](chapter-16-linked-lists.md)**, you'll learn about **Linked Lists** - dynamic data structures that don't need contiguous memory!
 
 ---
 

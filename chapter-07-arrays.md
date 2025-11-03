@@ -717,7 +717,7 @@ Find all leader elements (element greater than all elements to its right).
 
 ## What's Next?
 
-In **Chapter 8**, you'll learn about strings - how they're stored, C-strings vs std::string, and string manipulation!
+In **[Chapter 8](chapter-08-strings.md)**, you'll learn about strings - how they're stored, C-strings vs std::string, and string manipulation!
 
 ---
 

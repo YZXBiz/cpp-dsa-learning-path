@@ -564,7 +564,7 @@ Print all information in a formatted way.
 
 ## What's Next?
 
-In **Chapter 2**, you'll learn about operators and expressions - how to perform calculations, comparisons, and logical operations with your variables!
+In **[Chapter 2](chapter-02-operators-and-expressions.md)**, you'll learn about operators and expressions - how to perform calculations, comparisons, and logical operations with your variables!
 
 ---
 

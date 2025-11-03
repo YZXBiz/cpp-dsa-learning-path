@@ -729,7 +729,7 @@ Given daily stock prices, find maximum profit from one buy and one sell.
 
 ## What's Next?
 
-In **Chapter 11**, you'll learn about **Stacks and Queues** - two fundamental data structures with specific access patterns (LIFO and FIFO)!
+In **[Chapter 11](chapter-11-stacks-and-queues.md)**, you'll learn about **Stacks and Queues** - two fundamental data structures with specific access patterns (LIFO and FIFO)!
 
 ---
 

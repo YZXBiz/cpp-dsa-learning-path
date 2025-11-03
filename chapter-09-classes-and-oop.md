@@ -1106,7 +1106,7 @@ Create a custom array class with dynamic memory, copy constructor, and destructo
 
 ## What's Next?
 
-In **Chapter 10**, you'll learn about **Vectors** - dynamic arrays that grow automatically, and the gateway to the Standard Template Library (STL)!
+In **[Chapter 10](chapter-10-vectors-dynamic-arrays.md)**, you'll learn about **Vectors** - dynamic arrays that grow automatically, and the gateway to the Standard Template Library (STL)!
 
 ---
 

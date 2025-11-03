@@ -667,7 +667,7 @@ Find k most frequent elements in array.
 
 ## What's Next?
 
-In **Chapter 13**, you'll learn about **STL Algorithms** - powerful functions like sort, find, binary_search that work with all containers!
+In **[Chapter 13](chapter-13-stl-algorithms.md)**, you'll learn about **STL Algorithms** - powerful functions like sort, find, binary_search that work with all containers!
 
 ---
 

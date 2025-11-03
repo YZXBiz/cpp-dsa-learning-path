@@ -939,7 +939,7 @@ Rearrange string so no two same characters are adjacent.
 
 ## What's Next?
 
-In **Chapter 20**, you'll learn about **Graphs** - the ultimate data structure for modeling relationships and networks like social media, maps, and the internet!
+In **[Chapter 20](chapter-20-graphs.md)**, you'll learn about **Graphs** - the ultimate data structure for modeling relationships and networks like social media, maps, and the internet!
 
 ---
 

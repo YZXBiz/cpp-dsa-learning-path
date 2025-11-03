@@ -741,7 +741,7 @@ Is data sorted?
 
 ## What's Next?
 
-In **Chapter 23**, you'll learn about **Recursion** - one of the most powerful problem-solving techniques that powers binary search, merge sort, and much more!
+In **[Chapter 23](chapter-23-recursion.md)**, you'll learn about **Recursion** - one of the most powerful problem-solving techniques that powers binary search, merge sort, and much more!
 
 ---
 

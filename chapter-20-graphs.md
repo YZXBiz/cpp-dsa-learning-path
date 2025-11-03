@@ -1196,7 +1196,11 @@ Find minimum cost to connect all vertices (Prim's/Kruskal's).
 
 ## What's Next?
 
-Congratulations! You've completed the C++ & Data Structures course! You now have the foundation to:
+In **[Chapter 21](chapter-21-sorting-algorithms.md)**, you'll learn about **Sorting Algorithms** - how to efficiently organize data using different approaches!
+
+After that, **[Chapter 22](chapter-22-searching-algorithms.md)** covers **Searching Algorithms** - how to efficiently find elements in sorted and unsorted data!
+
+Congratulations! You're almost done with the C++ & Data Structures course! You now have the foundation to:
 - Build efficient algorithms
 - Solve complex coding problems
 - Ace technical interviews

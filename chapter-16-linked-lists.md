@@ -893,7 +893,7 @@ Add two numbers represented as linked lists (digits in reverse).
 
 ## What's Next?
 
-In **Chapter 17**, you'll learn about **Trees** - hierarchical data structures perfect for representing parent-child relationships!
+In **[Chapter 17](chapter-17-trees-basics.md)**, you'll learn about **Trees** - hierarchical data structures perfect for representing parent-child relationships!
 
 ---
 

@@ -755,7 +755,7 @@ Check if string has valid parentheses: "(())" = valid, "(()" = invalid
 
 ## What's Next?
 
-In **Chapter 9**, you'll learn about Classes and Object-Oriented Programming - the foundation of organizing complex programs!
+In **[Chapter 9](chapter-09-classes-and-oop.md)**, you'll learn about Classes and Object-Oriented Programming - the foundation of organizing complex programs!
 
 ---
 

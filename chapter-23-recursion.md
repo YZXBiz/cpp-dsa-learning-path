@@ -751,16 +751,12 @@ int factorial(int n) {
 
 ## What's Next?
 
-Congratulations! You've completed a comprehensive journey through C++ and Data Structures. You now understand:
-- Fundamentals (variables, loops, functions)
-- Data structures (arrays, vectors, stacks, queues, sets, maps)
-- Algorithms (sorting, searching, recursion)
-- Complexity analysis (Big-O)
+In **[Chapter 24](chapter-24-backtracking.md)**, you'll learn about **Backtracking** - a powerful recursive technique for systematically exploring all possibilities, perfect for solving constraint satisfaction problems like N-Queens and Sudoku!
 
-**Next steps**:
-- Practice on LeetCode, HackerRank, Codeforces
-- Learn advanced topics: dynamic programming, graphs, trees
-- Build projects to apply your knowledge!
+You'll continue your journey through:
+- Backtracking for exploring all possibilities
+- Dynamic Programming for optimization
+- Advanced algorithms and real-world applications
 
 ---
 

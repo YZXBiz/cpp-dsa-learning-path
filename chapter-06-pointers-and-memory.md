@@ -553,7 +553,7 @@ Even though smart pointers are better for production code, understanding raw poi
 
 ## What's Next?
 
-In **Chapter 7**, you'll learn about arrays in depth - how they're stored in memory, 2D arrays, and array operations!
+In **[Chapter 7](chapter-07-arrays.md)**, you'll learn about arrays in depth - how they're stored in memory, 2D arrays, and array operations!
 
 ---
 

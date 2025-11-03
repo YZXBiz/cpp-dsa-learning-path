@@ -563,7 +563,7 @@ Write `void printStars(int n)` that prints n stars.
 
 ## What's Next?
 
-In **Chapter 6**, you'll learn about pointers and memory management - the most powerful (and tricky!) feature of C++!
+In **[Chapter 6](chapter-06-pointers-and-memory.md)**, you'll learn about pointers and memory management - the most powerful (and tricky!) feature of C++!
 
 ---
 

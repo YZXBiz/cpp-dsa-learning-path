@@ -782,7 +782,7 @@ Before implementing backtracking, ask:
 
 ## What's Next?
 
-In **Chapter 25**, you'll learn about **Greedy Algorithms** - making the locally optimal choice at each step, and when this simple strategy actually works!
+In **[Chapter 25](chapter-25-greedy-algorithms.md)**, you'll learn about **Greedy Algorithms** - making the locally optimal choice at each step, and when this simple strategy actually works!
 
 ---
 

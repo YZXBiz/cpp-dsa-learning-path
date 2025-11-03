@@ -687,7 +687,7 @@ Find next lexicographically greater permutation.
 
 ## What's Next?
 
-In **Chapter 14**, you'll learn about **Big-O Notation and Complexity Analysis** - understanding why some algorithms are faster than others!
+In **[Chapter 14](chapter-14-complexity-and-big-o.md)**, you'll learn about **Big-O Notation and Complexity Analysis** - understanding why some algorithms are faster than others!
 
 ---
 

@@ -852,7 +852,7 @@ Before using greedy, verify:
 
 ## What's Next?
 
-In **Chapter 26**, you'll learn about **Dynamic Programming** - the ultimate technique for optimization problems when greedy fails, using memoization and tabulation to solve overlapping subproblems efficiently!
+In **[Chapter 26](chapter-26-dynamic-programming-intro.md)**, you'll learn about **Dynamic Programming** - the ultimate technique for optimization problems when greedy fails, using memoization and tabulation to solve overlapping subproblems efficiently!
 
 ---
 

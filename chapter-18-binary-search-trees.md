@@ -969,7 +969,7 @@ Remove all nodes outside a given range [low, high].
 
 ## What's Next?
 
-In **Chapter 19**, you'll learn about **Heaps** - special binary trees that enable efficient priority queue operations and sorting algorithms!
+In **[Chapter 19](chapter-19-heaps-and-priority-queues.md)**, you'll learn about **Heaps** - special binary trees that enable efficient priority queue operations and sorting algorithms!
 
 ---
 

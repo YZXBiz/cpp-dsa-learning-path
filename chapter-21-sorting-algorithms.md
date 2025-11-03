@@ -555,7 +555,7 @@ Need stability      | Merge sort
 
 ## What's Next?
 
-In **Chapter 22**, you'll learn about **Searching Algorithms** - how to efficiently find elements in sorted and unsorted data!
+In **[Chapter 22](chapter-22-searching-algorithms.md)**, you'll learn about **Searching Algorithms** - how to efficiently find elements in sorted and unsorted data!
 
 ---
 

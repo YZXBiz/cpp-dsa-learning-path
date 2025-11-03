@@ -867,7 +867,7 @@ Display appropriate message.
 
 ## What's Next?
 
-In **Chapter 4**, you'll learn about loops - how to repeat code multiple times without copy-pasting!
+In **[Chapter 4](chapter-04-loops.md)**, you'll learn about loops - how to repeat code multiple times without copy-pasting!
 
 ---
 

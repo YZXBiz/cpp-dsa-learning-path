@@ -856,7 +856,7 @@ Print level order but alternate left-to-right and right-to-left.
 
 ## What's Next?
 
-In **Chapter 18**, you'll learn about **Binary Search Trees (BST)** - sorted binary trees that enable fast searching, insertion, and deletion!
+In **[Chapter 18](chapter-18-binary-search-trees.md)**, you'll learn about **Binary Search Trees (BST)** - sorted binary trees that enable fast searching, insertion, and deletion!
 
 ---
 

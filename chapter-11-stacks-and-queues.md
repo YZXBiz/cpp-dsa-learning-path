@@ -739,7 +739,7 @@ Find maximum in each sliding window of size k using deque.
 
 ## What's Next?
 
-In **Chapter 12**, you'll learn about **Sets and Maps** - powerful containers for fast lookups and key-value storage!
+In **[Chapter 12](chapter-12-sets-and-maps.md)**, you'll learn about **Sets and Maps** - powerful containers for fast lookups and key-value storage!
 
 ---
 

@@ -737,7 +737,7 @@ Print multiplication table for 1-10 (10×10 grid).
 
 ## What's Next?
 
-In **Chapter 5**, you'll learn about functions - how to break your code into reusable pieces and understand how the call stack works!
+In **[Chapter 5](chapter-05-functions-and-call-stack.md)**, you'll learn about functions - how to break your code into reusable pieces and understand how the call stack works!
 
 ---
 

@@ -27,12 +27,12 @@ This course is organized into **26 sequential chapters**. Each chapter:
 | ✅ **[Chapter 1](chapter-01-variables-and-data-types.md)** | Variables & Data Types | Why int goes from -2³¹ to 2³¹-1, how memory works, bits and bytes |
 | ✅ **[Chapter 2](chapter-02-operators-and-expressions.md)** | Operators & Expressions | Math operations, comparisons, logical operators, precedence |
 | ✅ **[Chapter 3](chapter-03-control-structures.md)** | Control Structures | if/else, switch, ternary operator, nested conditions |
-| 📝 **Chapter 4** | Loops | for, while, do-while, nested loops, break/continue |
-| 📝 **Chapter 5** | Functions & Call Stack | Why functions exist, pass by value/reference, recursion basics |
-| 📝 **Chapter 6** | Pointers & Memory | What are pointers, why they exist, memory addresses |
-| 📝 **Chapter 7** | Arrays | Fixed-size collections, 2D arrays, memory layout |
-| 📝 **Chapter 8** | Strings | C-strings vs std::string, manipulation, common operations |
-| 📝 **Chapter 9** | Classes & OOP | Objects, encapsulation, constructors, destructors |
+| 📝 **[Chapter 4](chapter-04-loops.md)** | Loops | for, while, do-while, nested loops, break/continue |
+| 📝 **[Chapter 5](chapter-05-functions-and-call-stack.md)** | Functions & Call Stack | Why functions exist, pass by value/reference, recursion basics |
+| 📝 **[Chapter 6](chapter-06-pointers-and-memory.md)** | Pointers & Memory | What are pointers, why they exist, memory addresses |
+| 📝 **[Chapter 7](chapter-07-arrays.md)** | Arrays | Fixed-size collections, 2D arrays, memory layout |
+| 📝 **[Chapter 8](chapter-08-strings.md)** | Strings | C-strings vs std::string, manipulation, common operations |
+| 📝 **[Chapter 9](chapter-09-classes-and-oop.md)** | Classes & OOP | Objects, encapsulation, constructors, destructors |
 
 ---
 
@@ -40,10 +40,10 @@ This course is organized into **26 sequential chapters**. Each chapter:
 
 | Chapter | Topic | What You'll Learn |
 |---------|-------|-------------------|
-| 📝 **Chapter 10** | Vectors & Dynamic Arrays | How vectors grow automatically, capacity vs size |
-| 📝 **Chapter 11** | Stacks & Queues | LIFO and FIFO, applications, implementation |
-| 📝 **Chapter 12** | Sets & Maps | Hash tables, key-value pairs, when to use |
-| 📝 **Chapter 13** | STL Algorithms | sort, find, binary_search, iterators |
+| 📝 **[Chapter 10](chapter-10-vectors-dynamic-arrays.md)** | Vectors & Dynamic Arrays | How vectors grow automatically, capacity vs size |
+| 📝 **[Chapter 11](chapter-11-stacks-and-queues.md)** | Stacks & Queues | LIFO and FIFO, applications, implementation |
+| 📝 **[Chapter 12](chapter-12-sets-and-maps.md)** | Sets & Maps | Hash tables, key-value pairs, when to use |
+| 📝 **[Chapter 13](chapter-13-stl-algorithms.md)** | STL Algorithms | sort, find, binary_search, iterators |
 
 ---
 
@@ -51,13 +51,13 @@ This course is organized into **26 sequential chapters**. Each chapter:
 
 | Chapter | Topic | What You'll Learn |
 |---------|-------|-------------------|
-| 📝 **Chapter 14** | Complexity & Big-O | Why Big-O matters, analyzing algorithms, time/space complexity |
-| 📝 **Chapter 15** | Arrays Deep Dive | Array problems, 2D arrays, matrix operations |
-| 📝 **Chapter 16** | Linked Lists | Singly, doubly, circular, why use them vs arrays |
-| 📝 **Chapter 17** | Trees Basics | Binary trees, terminology, tree traversals |
-| 📝 **Chapter 18** | Binary Search Trees | BST properties, search/insert/delete operations |
-| 📝 **Chapter 19** | Heaps & Priority Queues | Min/max heaps, heapify, applications |
-| 📝 **Chapter 20** | Graphs | Representation, BFS, DFS, applications |
+| 📝 **[Chapter 14](chapter-14-complexity-and-big-o.md)** | Complexity & Big-O | Why Big-O matters, analyzing algorithms, time/space complexity |
+| 📝 **[Chapter 15](chapter-15-arrays-deep-dive.md)** | Arrays Deep Dive | Array problems, 2D arrays, matrix operations |
+| 📝 **[Chapter 16](chapter-16-linked-lists.md)** | Linked Lists | Singly, doubly, circular, why use them vs arrays |
+| 📝 **[Chapter 17](chapter-17-trees-basics.md)** | Trees Basics | Binary trees, terminology, tree traversals |
+| 📝 **[Chapter 18](chapter-18-binary-search-trees.md)** | Binary Search Trees | BST properties, search/insert/delete operations |
+| 📝 **[Chapter 19](chapter-19-heaps-and-priority-queues.md)** | Heaps & Priority Queues | Min/max heaps, heapify, applications |
+| 📝 **[Chapter 20](chapter-20-graphs.md)** | Graphs | Representation, BFS, DFS, applications |
 
 ---
 
@@ -65,12 +65,12 @@ This course is organized into **26 sequential chapters**. Each chapter:
 
 | Chapter | Topic | What You'll Learn |
 |---------|-------|-------------------|
-| 📝 **Chapter 21** | Sorting Algorithms | Bubble, selection, insertion, merge, quick sort |
-| 📝 **Chapter 22** | Searching Algorithms | Linear, binary search, search variations |
-| 📝 **Chapter 23** | Recursion | How recursion works, base cases, call stack |
-| 📝 **Chapter 24** | Backtracking | N-Queens, Sudoku, generating combinations |
-| 📝 **Chapter 25** | Greedy Algorithms | Greedy strategy, when it works, classic problems |
-| 📝 **Chapter 26** | Dynamic Programming Intro | Memoization, tabulation, classic DP problems |
+| 📝 **[Chapter 21](chapter-21-sorting-algorithms.md)** | Sorting Algorithms | Bubble, selection, insertion, merge, quick sort |
+| 📝 **[Chapter 22](chapter-22-searching-algorithms.md)** | Searching Algorithms | Linear, binary search, search variations |
+| 📝 **[Chapter 23](chapter-23-recursion.md)** | Recursion | How recursion works, base cases, call stack |
+| 📝 **[Chapter 24](chapter-24-backtracking.md)** | Backtracking | N-Queens, Sudoku, generating combinations |
+| 📝 **[Chapter 25](chapter-25-greedy-algorithms.md)** | Greedy Algorithms | Greedy strategy, when it works, classic problems |
+| 📝 **[Chapter 26](chapter-26-dynamic-programming-intro.md)** | Dynamic Programming Intro | Memoization, tabulation, classic DP problems |
 
 ---
 
